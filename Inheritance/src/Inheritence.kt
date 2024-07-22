@@ -1,6 +1,6 @@
 open class A
 {
-    var count : kotlin.Int = 0
+    var count : Int = 0
 
     open fun increment()
     {
@@ -10,18 +10,20 @@ open class A
     {
         count--
     }
-    fun change(value : kotlin.Int)
+    fun change(value : Int)
     {
         count=value
     }
 }
 class B : A()//B inherited from A
 {
-    override fun decrement() {
+    override fun decrement()
+    {
         count= count - 10
         super.decrement()
     }
-    override fun increment() {
+    override fun increment()
+    {
         count = count + 10
         super.increment()
     }
@@ -32,11 +34,13 @@ class C : A()//C inherited from A
 {
     val extraCount = 10
 
-    override fun decrement() {
+    override fun decrement()
+    {
         count=count-extraCount
         super.decrement()
     }
-    override fun increment() {
+    override fun increment()
+    {
         count=count+extraCount
         super.increment()
     }
@@ -44,10 +48,15 @@ class C : A()//C inherited from A
 fun main()
 {
     val obj1 = B()
+    val obj2 = C()
 
     obj1.increment()
     println(obj1.count)
 
     obj1.decrement()
     println(obj1.count)
+
+    println(obj2.count)
+    obj2.change(56)
+    println(obj2.count)
 }
