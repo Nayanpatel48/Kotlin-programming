@@ -5,22 +5,15 @@ class GardenItem(val name: String)//primary constructor
     var material = name
     var prize = 0
     var category = "empty"
-
-    constructor(
-        name: String,
-        prize : Int
-    ) : this(name)//secondary / overloaded constructor
+    //secondary / overloaded constructor
+    constructor(name: String, prize : Int) : this(name)
     {
         //here this(name) is a call to primary constructor which is required
         material = name
         this.prize = prize
     }
-
-    constructor(
-        name : String,
-        prize : Int,
-        category : String
-    ) : this(name, prize)//secondary / overloaded constructor
+    //secondary / overloaded constructor
+    constructor(name : String, prize : Int, category : String) : this(name, prize)
     {
         material = name
         this.prize = prize
