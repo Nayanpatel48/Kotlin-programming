@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Abstract classes/Abstract classes.iml" filepath="$PROJECT_DIR$/Abstract classes/Abstract classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Base Class Initialization/Base Class Initialization.iml" filepath="$PROJECT_DIR$/Base Class Initialization/Base Class Initialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class Deligations/Class Deligations.iml" filepath="$PROJECT_DIR$/Class Deligations/Class Deligations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Companion objects/Companion objects.iml" filepath="$PROJECT_DIR$/Companion objects/Companion objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Composition/Composition.iml" filepath="$PROJECT_DIR$/Composition/Composition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Downcasting/Downcasting.iml" filepath="$PROJECT_DIR$/Downcasting/Downcasting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance and extensions/Inheritance and extensions.iml" filepath="$PROJECT_DIR$/Inheritance and extensions/Inheritance and extensions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inner classes/Inner classes.iml" filepath="$PROJECT_DIR$/Inner classes/Inner classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nested classes/Nested classes.iml" filepath="$PROJECT_DIR$/Nested classes/Nested classes.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Object-oriented-programming.iml" filepath="$PROJECT_DIR$/.idea/Object-oriented-programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Objects/Objects.iml" filepath="$PROJECT_DIR$/Objects/Objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polimorphism/Polimorphism.iml" filepath="$PROJECT_DIR$/Polimorphism/Polimorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sealed classes/Sealed classes.iml" filepath="$PROJECT_DIR$/Sealed classes/Sealed classes.iml" />
       <module fileurl="file://$PROJECT_DIR$/SecondaryConstructors/SecondaryConstructors.iml" filepath="$PROJECT_DIR$/SecondaryConstructors/SecondaryConstructors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Type casting/Type casting.iml" filepath="$PROJECT_DIR$/Type casting/Type casting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Upcasting/Upcasting.iml" filepath="$PROJECT_DIR$/Upcasting/Upcasting.iml" />
     </modules>
   </component>
 </project>
