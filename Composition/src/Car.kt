@@ -14,7 +14,7 @@ class Window(val side : String)
 }
 class Door(val side : String)
 {
-    //existing class object is created here
+    //existing class's object is created here
     val window = Window(side)
     fun open() = "$window side door open."
     fun close() = "$window side door close"
