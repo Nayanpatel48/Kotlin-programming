@@ -1,0 +1,7 @@
+package classDelegationPkg
+
+
+fun main()
+{
+
+}
