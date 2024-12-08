@@ -1,7 +1,0 @@
-package classDelegationPkg
-
-
-fun main()
-{
-
-}
